@@ -78,7 +78,7 @@ int main()
 		else
 		{
 			d = hexa[j] - 48;
-			printf("   %d", d);
+			printf("   %d", d);//
 			c = c + (d*pow(16, j));
 		}
 		flag++;
